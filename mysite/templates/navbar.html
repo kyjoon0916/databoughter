@@ -1,0 +1,37 @@
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <div class="container">
+      <a href="{% url 'index' %}" class="navbar-brand">SMARTINSIDE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="데이터 종류">데이터 타입 <span
+                class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="데이터 종류">
+              <a class="dropdown-item" href="{% url 'model' %}">영상 & 이미지</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'model2' %}">수치형 & 통계</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../help/">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'company' %}">Company</a>
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav ms-md-auto">
+          <li class="nav-item">
+            <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/thomaspark/bootswatch/"><i
+                class="fa fa-github"></i> GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+ 
