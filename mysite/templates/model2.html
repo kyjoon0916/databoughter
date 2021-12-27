@@ -1,0 +1,68 @@
+{% load static %}
+
+<head>
+    <meta charset="utf-8">
+    <title>데이터 바우처 사업 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23019901-1"></script>
+    <script>
+
+    </script>
+    <script id="_carbonads_projs" type="text/javascript"
+        src="https://srv.carbonads.net/ads/CKYIE23N.json?segment=placement:bootswatchcom&amp;callback=_carbonads_go">
+    </script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+</head>
+<style>
+    .bottom {
+        width: 900px;
+        border-bottom: 1px solid black;
+    }
+</style>
+
+<body>
+    {% include "navbar.html" %}
+    <div class="container">
+        <div class="page-header" id="banner">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-sm-6">
+                    <h1>&nbsp;</h1>
+                    <h1>&nbsp;</h1>
+                    <div class="bottom">
+                        <h1><strong>모델 타입</strong></h1>
+                    </div><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="container">
+                    <div class="card border-primary mb-3" style="max-width: 100%; max-height: 100%;">
+                        <div class="card-header no-bg post-tags" style="padding: 0.25rem; height:100%; width:100%">
+                            <strong>Sensor</strong>
+                        </div>
+                        <div class="card-body">
+                            <img src="{% static 'img/sensordata.png' %}" style="height: 100%; width: 100%;"></img>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container">
+                    <div class="card border-primary mb-3" style="max-width: 100%; max-height: 100%;">
+                        <div class="card-header no-bg post-tags" style="padding: 0.25rem; height:100%; width:100%">
+                            <strong>Coner</strong>
+                        </div>
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>{% include 'footer.html' %}
+</body>
